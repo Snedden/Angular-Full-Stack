@@ -17,6 +17,9 @@ import { AccountComponent } from './account/account.component';
 import { AdminComponent } from './admin/admin.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 
+import { D3Service } from 'd3-ng2-service';
+import { HiComponent } from './d3/hi/hi.component'; // <-- import statement
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +30,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     LogoutComponent,
     AccountComponent,
     AdminComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    HiComponent,
   ],
   imports: [
     RoutingModule,
@@ -38,7 +42,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     AuthGuardLogin,
     AuthGuardAdmin,
     CatService,
-    UserService
+    UserService,
+    D3Service
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]

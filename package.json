@@ -38,6 +38,7 @@
     "body-parser": "^1.18.2",
     "bootstrap": "^4.0.0",
     "core-js": "^2.4.1",
+    "d3-ng2-service": "^2.0.0",
     "dotenv": "^5.0.0",
     "express": "^4.16.2",
     "font-awesome": "^4.7.0",
@@ -50,7 +51,7 @@
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
-    "@angular/cli": "1.6.7",
+    "@angular/cli": "^1.7.0",
     "@angular/compiler-cli": "^5.2.0",
     "@angular/language-service": "^5.2.0",
     "@types/express": "^4.11.0",
